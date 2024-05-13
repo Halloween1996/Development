@@ -1,0 +1,13 @@
+# Ignore any sub-directory
+*/
+
+# Ignore Logs
+logs*
+*.log
+
+# Ignore any Configuation files and exe files.
+config.*
+*.ini
+*.md
+*.lnk
+*.exe
