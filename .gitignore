@@ -11,3 +11,4 @@ config.*
 *.md
 *.lnk
 *.exe
+!README.md
