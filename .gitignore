@@ -11,4 +11,5 @@ config.*
 *.md
 *.lnk
 *.exe
+*Beta*
 !README.md

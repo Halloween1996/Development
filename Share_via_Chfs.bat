@@ -1,5 +1,6 @@
 @echo off
-title chfsÎÄ¼ş¹²ÏíÅäÖÃ
+title chfs
+for /f "delims=" %%a in (%cd%\Batch_Environment.ini) do set "%%a"
 setlocal enabledelayedexpansion
 for %%i in ("C:\Events\Development\chfs\*.ini") do (
 	set /a p+=1
